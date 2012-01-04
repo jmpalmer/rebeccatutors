@@ -1,0 +1,40 @@
+div {
+  
+  border: 1px solid black;
+  
+}
+#top {
+  
+  text-align: right;
+  
+  padding: 40px 85px 0 0;
+}
+
+#sidebar {
+
+  width: 150px;
+
+  float: left;
+
+  margin-left: 7px;
+
+  margin-right: 6px;
+
+}
+
+
+#sidebar ul {
+
+  margin: 0px;
+
+  padding: 10px;
+
+  list-style: none;
+
+}
+
+#content {
+  
+  float: left;
+  
+}

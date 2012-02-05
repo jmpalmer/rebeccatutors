@@ -24,33 +24,33 @@ div {
   color: white;
 }
 
-#sidebar {
-  width: 300px;
-  float: left;
-  margin-left: 7px;
-  margin-right: 6px;
-  padding-left: 15px;
+#navbar {
   font-size: 20px;
 }
 
 
-#sidebar ul {
-  margin: 20px;
-  padding: 10px;
+#navbar ul {
   list-style: none;
 }
 
-#sidebar li {
+#navbar li {
+  margin-left: 10%;
   font-size: 23px;
-  margin-bottom: 15px;
+  display: inline;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #EEE8AA;
 }
 
 #content {
-  float: left;
   color: black;
   background-color: #B0B0B0;
   border-radius: 15px;
   width: 750px;
   padding: 10px;
+  margin: 0px auto;
   margin-bottom: 50px;
+  
 }

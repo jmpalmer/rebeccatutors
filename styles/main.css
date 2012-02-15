@@ -1,56 +1,103 @@
-body{
-  background-color: #220001;  
-  color: #EEE8AA;
-}
-div {
-  /*border: 1px solid black;*/
-  font-variant: small-caps;
-}
+@media screen {
 
-#top {
-  text-align: right;  
-  padding: 20px 75px 100px 0;
-}
+	body{
+	  background-color: #220001;  
+	  color: #EEE8AA;
+	  min-width: 1200px;
+	}
+	div {
+	  /*border: 1px solid black;*/
+	  font-variant: small-caps;
+	}
 
-#top h1 {
-  font-size: 75px;
-  margin: 10px 10px 10px 10px;
-}
+	#top {
+	  text-align: right;  
+	  padding: 0px 75px 25px 0;
+	}
 
-#top h2 {
-  font-size: 45px;
-  font-variant: small-caps;
-  margin: 10px 10px 10px 10px;
-  color: white;
-}
+	#top h1 {
+	  font-size: 50px;
+	  margin: 10px 10px 10px 10px;
+	}
 
-#navbar {
-  font-size: 20px;
-}
+	#top h2 {
+	  font-size: 35px;
+	  font-variant: small-caps;
+	  margin: 10px 10px 10px 10px;
+	  color: white;
+	}
+
+	#navbar {
+	  font-size: 28px;
+	}
 
 
-#navbar ul {
-  list-style: none;
-}
+	#navbar ul {
+	  list-style: none;
+	  padding-left: 0%;
+	}
 
-#navbar li {
-  margin-left: 10%;
-  font-size: 23px;
-  display: inline;
-}
+	#navbar li {
+	  margin-left: 5%;
+	  margin-right: 6%;
+	  display: inline;
+	}
 
-#navbar a {
-  text-decoration: none;
-  color: #EEE8AA;
-}
 
-#content {
-  color: black;
-  background-color: #B0B0B0;
-  border-radius: 15px;
-  width: 750px;
-  padding: 10px;
-  margin: 0px auto;
-  margin-bottom: 50px;
+
+	#navbar a {
+	  text-decoration: none;
+	  color: #EEE8AA;
+	}
+
+	#content {
+	  color: black;
+	  background-color: #B0B0B0;
+	  border-radius: 15px;
+	  width: 50%;
+	  height: 50%;
+	  padding: 10px;
+	  margin: 0px auto;
+	  margin-left: 38%;
+	  margin-bottom: 6%;
   
+	}
+	
+	.example-right {
+      position:relative;
+      padding:15px 30px;
+      color:#fff;
+      background:#5a8f00; /* default background for browsers without gradient support */
+      /* css3 */
+      background:-webkit-gradient(linear, 0 0, 0 100%, from(#b8db29), to(#5a8f00));
+      background:-moz-linear-gradient(#b8db29, #5a8f00);
+      background:-o-linear-gradient(#b8db29, #5a8f00);
+      background:linear-gradient(#b8db29, #5a8f00);
+      -webkit-border-radius:10px;
+      -moz-border-radius:10px;
+      border-radius:10px;
+      float: left;
+      margin-left: 7%;
+      margin-top: 13%;
+      width: 15%;
+  }
+
+  /* display of quote author (alternatively use a class on the element following the blockquote) */
+  .example-right + p {margin:15px 0 2em 85px; font-style:italic;}
+
+  /* creates the triangle */
+  .example-right:after {
+      content:"";
+      position:absolute;
+      bottom:-50px;
+      left:50px;
+      border-width:0 20px 50px 0px;
+      border-style:solid;
+      border-color:transparent #5a8f00;
+      /* reduce the damage in FF3.0 */
+      display:block; 
+      width:0;
+  }
+	
+	
 }

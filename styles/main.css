@@ -1,9 +1,11 @@
 @media screen {
 
 	body{
-	  background-color: #220001;  
-	  color: #EEE8AA;
-	  min-width: 1200px;
+	  background-color: #B0B0B0;/*#220001;*/
+	  background-image:url(../back.png);
+	  background-size: 100% 100%;
+	  color: #220001;
+	  min-width: 1250px;
 	}
 	div {
 	  /*border: 1px solid black;*/
@@ -12,34 +14,36 @@
 
 	#top {
 	  text-align: right;  
-	  padding: 0px 75px 25px 0;
+	  padding: 20px 75px 25px 0;
 	}
 
 	#top h1 {
-	  font-size: 50px;
+	  font-size: 60px;
 	  margin: 10px 10px 10px 10px;
 	}
 
 	#top h2 {
-	  font-size: 35px;
+	  font-size: 38px;
 	  font-variant: small-caps;
 	  margin: 10px 10px 10px 10px;
-	  color: white;
+	  color: #220001;
 	}
 
 	#navbar {
+	  margin-top: 65px;
 	  font-size: 28px;
 	}
 
 
 	#navbar ul {
 	  list-style: none;
-	  padding-left: 0%;
+	  padding-left: 13%;
+	  padding-right: 5%;
 	}
 
 	#navbar li {
-	  margin-left: 5%;
-	  margin-right: 6%;
+	  margin-left: 4%;
+	  margin-right: 4%;
 	  display: inline;
 	}
 
@@ -47,38 +51,37 @@
 
 	#navbar a {
 	  text-decoration: none;
-	  color: #EEE8AA;
+	  color: #220001;
 	}
 
 	#content {
 	  color: black;
-	  background-color: #B0B0B0;
+	  background-color: #878787;
 	  border-radius: 15px;
 	  width: 50%;
-	  height: 50%;
+	  height: 31%;
 	  padding: 10px;
 	  margin: 0px auto;
-	  margin-left: 38%;
+	  margin-left: 25%;
 	  margin-bottom: 6%;
   
 	}
 	
 	.example-right {
       position:relative;
-      padding:15px 30px;
+      padding:36px 67px;
       color:#fff;
-      background:#5a8f00; /* default background for browsers without gradient support */
+      background:#8B4513; /* default background for browsers without gradient support */
       /* css3 */
-      background:-webkit-gradient(linear, 0 0, 0 100%, from(#b8db29), to(#5a8f00));
+      background:-webkit-gradient(linear, 0 -35%, 0 70%, from(#8B4513), to(#230C14));
       background:-moz-linear-gradient(#b8db29, #5a8f00);
       background:-o-linear-gradient(#b8db29, #5a8f00);
       background:linear-gradient(#b8db29, #5a8f00);
       -webkit-border-radius:10px;
       -moz-border-radius:10px;
-      border-radius:10px;
+      border-radius:220px / 120px;
       float: left;
       margin-left: 7%;
-      margin-top: 13%;
       width: 15%;
   }
 
@@ -89,11 +92,11 @@
   .example-right:after {
       content:"";
       position:absolute;
-      bottom:-50px;
+      bottom:-20px;
       left:50px;
       border-width:0 20px 50px 0px;
       border-style:solid;
-      border-color:transparent #5a8f00;
+      border-color:transparent #230C14;
       /* reduce the damage in FF3.0 */
       display:block; 
       width:0;

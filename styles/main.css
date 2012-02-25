@@ -74,6 +74,12 @@
 	  margin-bottom: 4%;
 	}
 	
+	#content h3 {
+	  margin-right: 5%;
+	  font-size: 17px;
+	  margin-top: -1%;
+	}
+	
 	#content a {
 	  margin-left: 5%;
 	  width: 25%;

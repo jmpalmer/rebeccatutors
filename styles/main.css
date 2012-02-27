@@ -121,9 +121,9 @@
       background:#8B4513; /* default background for browsers without gradient support */
       /* css3 */
       background:-webkit-gradient(linear, 0 -35%, 0 70%, from(#8B4513), to(#230C14));
-      background:-moz-linear-gradient(#b8db29, #5a8f00);
-      background:-o-linear-gradient(#b8db29, #5a8f00);
-      background:linear-gradient(#b8db29, #5a8f00);
+      background:-moz-linear-gradient(#8B4513, #230C14);
+      background:-o-linear-gradient(#8B4513, #230C14);
+      background:linear-gradient(#8B4513, #230C14);
       -webkit-border-radius:10px;
       -moz-border-radius:10px;
       border-radius: 240px / 120px;

@@ -79,6 +79,20 @@
 	  font-size: 17px;
 	  margin-top: -1.5%;
 	}
+	#content table {
+	  margin-top: -1%;
+	}
+	
+	#content th {
+	  font-size: 18px;
+	  font-variant: small-caps
+	}
+	
+	#content td {
+	  padding-left: 10%;
+	  width: 25%;
+	  font-variant: small-caps
+	}
 	
 	#content a {
 	  margin-left: 5%;

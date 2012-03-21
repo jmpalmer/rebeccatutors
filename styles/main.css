@@ -7,6 +7,8 @@
 	  background-repeat:no-repeat;
 	  color: #220001;
 	  min-width: 1250px;
+	  min-height: 700px;
+	  height: 700px;
 	}
 	div {
 	  /*border: 1px solid black;*/
@@ -126,7 +128,7 @@
       background:linear-gradient(#8B4513, #230C14);
       -webkit-border-radius:10px;
       -moz-border-radius:10px;
-      border-radius: 240px / 120px;
+      border-radius: 50% / 50%;
       float: left;
       margin-left: 7%;
       width: 23%;

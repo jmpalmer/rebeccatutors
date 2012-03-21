@@ -173,6 +173,10 @@
     height: 40%;
     padding-right: 1%;
   }
-	
-	
+  
 }
+
+@media screen and (max-width: 1000px) {
+  body{
+    background-image: none;
+  }

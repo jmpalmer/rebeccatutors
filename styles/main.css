@@ -78,6 +78,7 @@
 	#content h3 {
 	  margin-right: 5%;
 	  font-size: 105%;
+	  -moz-font-size: 85%;
 	  margin-top: -1.5%;
 	}
 	
@@ -163,7 +164,7 @@
     border-radius: 15px;
     padding: 1%;
     padding-top: 0%;
-    font-size: 18px;
+    font-size: 104%;
   }
   iframe{
     float: left;
